@@ -2,6 +2,25 @@
   color: #fff;
   text-decoration: none;
   font-family: Inter-Regular;
-  font-size: 24;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.header__lang-link:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header__lang-link {
+    font-size: 5vw;
+    line-height: 20px;
+  }
 }

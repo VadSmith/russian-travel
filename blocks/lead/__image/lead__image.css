@@ -1,1 +1,4 @@
-.lead__image {}
+.lead__image {
+  margin: 0;
+  width: 100%;
+}

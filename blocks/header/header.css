@@ -1,15 +1,36 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  max-width: 1280px;
-  width: calc(100% - 96px);
-  padding: 0;
   margin: 0 auto;
+  padding: 28px 48px 0;
+  max-width: 1184px;
+  margin-bottom: 56px;
 }
 
-@media screen and (min-width:1279px) {
+@media screen and (max-width: 1279px) {
   .header {
-    padding: 28px 48px 56px;
+    padding: 28px 48px 0px;
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding: 28px 24px 0;
+    /* margin-bottom: 48px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding: 16px 16px 0;
+    /* margin-bottom: 48px; */
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .header {
+    display: block;
+    margin-bottom: 5vh;
   }
 }

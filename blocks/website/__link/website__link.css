@@ -1,0 +1,21 @@
+.website__link {
+  margin: 0;
+  padding: 0;
+  font-family: Inter-Regular;
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  /* letter-spacing: 0em; */
+  text-align: left;
+  color: #fff;
+}
+
+.website__link:hover {
+  cursor: url(../../../images/cursor/alt-pointer.png) 10 0, pointer;
+}
+
+@media screen and (max-width: 319px) {
+  .website__link {
+    font-size: 6vw;
+  }
+}
