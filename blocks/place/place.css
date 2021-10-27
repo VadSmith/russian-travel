@@ -5,6 +5,7 @@
   padding: 0;
   gap: 48px 40px;
   box-sizing: border-box;
+  /* margin: 92px; */
 }
 
 @media screen and (max-width: 1279px) {

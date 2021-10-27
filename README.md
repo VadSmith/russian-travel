@@ -1,5 +1,5 @@
 # Проект - Путешествие по России
-
+[Открыть проект на GitPages](https://vadsmith.github.io/russian-travel/)
 ### Обзор
 * Интро
 * Figma
