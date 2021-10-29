@@ -12,7 +12,3 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
 }
-
-a:hover {
-  opacity: 0.7;
-}

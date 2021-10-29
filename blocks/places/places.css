@@ -6,6 +6,7 @@
   flex-direction: column;
   gap: 80px;
   box-sizing: border-box;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -19,6 +20,7 @@
   .places {
     max-width: 720px;
     gap: 73px;
+    margin-bottom: 88px;
   }
 }
 
@@ -27,6 +29,7 @@
     /* max-width: 288px; */
     width: 100%;
     gap: 50px;
+    margin-bottom: 66px;
     /* padding: 64px 16px 66px; */
   }
 }

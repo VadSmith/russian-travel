@@ -1,7 +1,8 @@
-.website__link {
+.place__link {
   margin: 0;
   padding: 0;
-  font-family: Inter-Regular;
+  font-family: Inter, Arial, sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   font-style: normal;
@@ -10,12 +11,13 @@
   color: #fff;
 }
 
-.website__link:hover {
+.place__link:hover {
   cursor: url(../../../images/cursor/alt-pointer.png) 10 0, pointer;
+  opacity: .8;
 }
 
 @media screen and (max-width: 319px) {
-  .website__link {
+  .place__link {
     font-size: 6vw;
   }
 }
